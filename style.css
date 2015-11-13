@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.player {
+	height: 450px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px; 
+	background-color: #333;
+}
+
+.player video {
+	height: 400px;
+	width: 800px;
+	background-color: #000;
+}
+
+.player .controls img{
+	height: 50px;
+}
+
+.player .controls {
+	height: 50px;
+}
+
+.player .controls p {
+	display: inline-block;
+	width: 395px;
+}
+
+.player .controls p:first-child {
+	text-align: left;
+}
+
+.player .controls p:last-child {
+	text-align: right;
+}
