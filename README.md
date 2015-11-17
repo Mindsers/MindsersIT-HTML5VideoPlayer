@@ -7,6 +7,7 @@ It is a video player maked with HTML5, CSS3 and JS
 
 Courses :
 - [Video 1](http://blog.nathanaelcherrier.com/2015/11/13/livecoding-html5-video-player/)
+- [Video 2](http://blog.nathanaelcherrier.com/2015/11/18/livecoding-html5-video-player-part-two/)
 
 Author :
 - [Website](http://nathanaelcherrier.com)
