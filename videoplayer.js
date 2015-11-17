@@ -20,6 +20,10 @@ $(document).ready(function(){
 		return false;
 	});
 
+	video.on('ended', function(){
+		playpauseButton.children('img').attr('src', 'play.png');
+	});
+
 	// Enlever et remettre le son de la vidéo
 	soundmuteButton.click(function(){
 		if(videoDOM.muted == true){
@@ -29,6 +33,32 @@ $(document).ready(function(){
 			videoDOM.muted = true;
 			soundmuteButton.children('img').attr('src', 'mute.png');
 		}
+
+		return false;
+	});
+
+	// Activer et désactiver le fast forward
+	forwardButton.mousedown(function(){
+		videoDOM.playbackRate = 6.0;
+
+		return false;
+	});
+
+	forwardButton.mouseup(function(){
+		videoDOM.playbackRate = 1.0;
+
+		return false;
+	});
+
+	// Activer et désactiver le rewind
+	rewindButton.mousedown(function(){
+		videoDOM.playbackRate = -6.0;
+
+		return false;
+	});
+
+	rewindButton.mouseup(function(){
+		videoDOM.playbackRate = 1.0;
 
 		return false;
 	});
