@@ -1,4 +1,4 @@
-# MindsersIT-HTML5VideoPlayer
+# MindsersIT Tutorials - HTML5 Video Player
 ---
 
 This project was developed by Nathanaël CHERRIER as an example for courses.
