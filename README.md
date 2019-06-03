@@ -2,7 +2,7 @@
 
 This project was developed by Nathanaël CHERRIER as an example for courses.
 
-It is a video player maked with HTML5, CSS3 and JS
+It is a video player maked with HTML5, CSS3 and JS. You can find it live at <https://mindsers.github.io/tutorial-html5videoplayer/>.
 
 ## Courses
 
